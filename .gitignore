@@ -1,3 +1,6 @@
+
+
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,8 +10,15 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+mvnw
+mvnw.cmd
 # https://maven.apache.org/wrapper/#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+# intellij
+.DS_Store
+.idea/
+HELP.md
 
 # Eclipse m2e generated files
 # Eclipse Core
