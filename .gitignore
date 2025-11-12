@@ -1,5 +1,7 @@
-
-
+# Project
+docs/Notes.txt
+docs/ToDo.txt
+src/main/resources/application-local.yaml
 
 target/
 pom.xml.tag

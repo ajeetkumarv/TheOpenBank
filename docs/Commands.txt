@@ -1,0 +1,4 @@
+Git
+
+git rm --cached path/to/file
+
