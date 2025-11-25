@@ -5,6 +5,7 @@ import com.theopenbank.customer.dto.CustomerResponse;
 import com.theopenbank.customer.model.Customer;
 import com.theopenbank.customer.model.Gender;
 import com.theopenbank.customer.repository.CustomerRepository;
+import com.theopenbank.exception.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -30,8 +31,9 @@ public class CustomerService {
 
     // Get one by ID
     public Optional<CustomerResponse> getCustomerById(Long id) {
-        return customerRepository.findById(id)
-                .map(this::mapToResponse);
+        return Optional.ofNullable(customerRepository.findById(id)
+                .map(this::mapToResponse)
+                .orElseThrow(() -> new ResourceNotFoundException("Customer not found with id " + id)));
     }
 
     // Create new customer
