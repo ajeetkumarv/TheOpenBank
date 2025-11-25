@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.7</version>
+		<version>4.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.abcbank</groupId>
-	<artifactId>abcbank</artifactId>
+	<groupId>com.theopenbank</groupId>
+	<artifactId>theopenbank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>abcbank</name>
-	<description>The Bank project</description>
+	<name>theopenbank</name>
+	<description>The Open Bank project</description>
 	<url/>
 	<licenses>
         <license>
@@ -32,9 +32,9 @@
         </developer>
 	</developers>
 	<scm>
-		<connection>scm:git:https:github.com/ajeetkumarv/ABCBank.git</connection>
+		<connection>scm:git:https:github.com/ajeetkumarv/TheOpenBank.git</connection>
 		<tag>main</tag>
-		<url>https://github.com/ajeetkumarv/ABCBank</url>
+		<url>https://github.com/ajeetkumarv/TheOpenBank</url>
 	</scm>
 	<properties>
 		<java.version>25</java.version>

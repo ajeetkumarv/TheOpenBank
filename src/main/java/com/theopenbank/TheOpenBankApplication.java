@@ -1,13 +1,13 @@
-package com.abcbank;
+package com.theopenbank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AbcbankApplication {
+public class TheOpenBankApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AbcbankApplication.class, args);
+		SpringApplication.run(TheOpenBankApplication.class, args);
 	}
 
 }

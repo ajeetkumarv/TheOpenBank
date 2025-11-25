@@ -1,10 +1,10 @@
-package com.abcbank.customer.service;
+package com.theopenbank.customer.service;
 
-import com.abcbank.customer.dto.CustomerRequest;
-import com.abcbank.customer.dto.CustomerResponse;
-import com.abcbank.customer.model.Customer;
-import com.abcbank.customer.model.Gender;
-import com.abcbank.customer.repository.CustomerRepository;
+import com.theopenbank.customer.dto.CustomerRequest;
+import com.theopenbank.customer.dto.CustomerResponse;
+import com.theopenbank.customer.model.Customer;
+import com.theopenbank.customer.model.Gender;
+import com.theopenbank.customer.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

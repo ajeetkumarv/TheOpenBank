@@ -1,10 +1,10 @@
-package com.abcbank;
+package com.theopenbank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AbcbankApplicationTests {
+class TheOpenBankApplicationTests {
 
 	@Test
 	void contextLoads() {

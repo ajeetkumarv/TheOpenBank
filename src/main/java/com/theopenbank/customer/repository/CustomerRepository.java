@@ -1,6 +1,6 @@
-package com.abcbank.customer.repository;
+package com.theopenbank.customer.repository;
 
-import com.abcbank.customer.model.Customer;
+import com.theopenbank.customer.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

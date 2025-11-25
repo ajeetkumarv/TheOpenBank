@@ -1,4 +1,4 @@
-package com.abcbank.customer.exception;
+package com.theopenbank.customer.exception;
 
 import lombok.Builder;
 import lombok.Data;

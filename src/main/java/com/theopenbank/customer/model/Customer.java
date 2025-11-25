@@ -1,4 +1,4 @@
-package com.abcbank.customer.model;
+package com.theopenbank.customer.model;
 
 import jakarta.persistence.*;
 import lombok.*;

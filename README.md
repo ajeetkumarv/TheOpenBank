@@ -2,7 +2,7 @@
 This is a Banking project.
 
 ## Techstack
- - Springboot
+ - Springboot 4.0
  - Java 25
  - Lombok
  - Spring data JPA

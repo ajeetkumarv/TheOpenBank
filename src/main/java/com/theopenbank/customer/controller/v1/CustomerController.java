@@ -1,8 +1,8 @@
-package com.abcbank.customer.controller.v1;
+package com.theopenbank.customer.controller.v1;
 
-import com.abcbank.customer.dto.CustomerRequest;
-import com.abcbank.customer.dto.CustomerResponse;
-import com.abcbank.customer.service.CustomerService;
+import com.theopenbank.customer.dto.CustomerRequest;
+import com.theopenbank.customer.dto.CustomerResponse;
+import com.theopenbank.customer.service.CustomerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

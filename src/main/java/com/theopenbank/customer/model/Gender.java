@@ -1,4 +1,4 @@
-package com.abcbank.customer.model;
+package com.theopenbank.customer.model;
 
 public enum Gender {
     UNKNOWN(0),
