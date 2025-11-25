@@ -18,7 +18,7 @@ public class CustomerController {
         this.customerService = customerService;
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public List<CustomerResponse> getAllCustomers() {
         return customerService.getAllCustomers();
     }
@@ -30,7 +30,7 @@ public class CustomerController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity<CustomerResponse> createCustomer(@RequestBody CustomerRequest customer) {
         CustomerResponse savedCustomer = customerService.createCustomer(customer);
         return ResponseEntity.ok(savedCustomer);
